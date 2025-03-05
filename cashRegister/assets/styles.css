@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --light-gray: #f0f0f0;
+    --dark-blue: #1a1a2e;
+    --primary-color: #e94560;
+    --secondary-color: #0f3460;
+    --accent-color: #ffcc00;
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: var(--dark-blue);
+    color: var(--light-gray);
+    font-family: var(--font-primary);
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+  
+  .freecodecamp-logo {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--font-secondary);
+  }
+  
+  #change-due {
+    text-align: left;
+    font-size: 1.2rem;
+    color: var(--light-gray);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    color: var(--light-gray);
+  }
+  
+  .user-input {
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--dark-blue);
+    color: var(--light-gray);
+  }
+  
+  .price-screen {
+    border: 10px solid var(--secondary-color);
+    background-color: var(--dark-blue);
+    height: 50px;
+    width: 200px;
+    margin-left: -40px;
+    color: var(--light-gray);
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #price {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  
+  .connector {
+    margin-left: -20px;
+    background-color: var(--secondary-color);
+    height: 30px;
+    width: 40px;
+  }
+  
+  .top-register {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 35px 35px 0 0;
+    padding-top: 20px;
+    background-color: var(--secondary-color);
+    height: 250px;
+    width: 325px;
+  }
+  
+  .btns-container {
+    width: 25%;
+  }
+  
+  .btn {
+    border-radius: 10%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  .check-btn-styles {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: var(--accent-color);
+    background-image: linear-gradient(var(--accent-color), var(--primary-color));
+    border-color: var(--primary-color);
+    border-width: 3px;
+    border-radius: 5px;
+  }
+  
+  .cash-drawer-display {
+    font-size: 1.1rem;
+    background-color: var(--light-gray);
+    width: 55%;
+    height: 95%;
+    color: var(--dark-blue);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .bottom-register {
+    background-color: var(--secondary-color);
+    height: 50px;
+    width: 325px;
+    margin-top: 10px;
+  }
+  
+  .circle {
+    margin: 15px auto;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-color);
+  }
